@@ -27,3 +27,4 @@ Into html files of examples.
 You can test gtheme with this examples for now:
  * window
  * grid
+ * message-box
