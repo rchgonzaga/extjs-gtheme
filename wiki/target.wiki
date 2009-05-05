@@ -1,0 +1,9 @@
+#summary Target of GTheme
+
+= Introduction =
+
+I have just started working on a very light theme for ExtJS (for now 2.2) inspired from Google apps style (gmail, reader, chrome).
+I want to reduce 3D components and if possible image backgrounds.
+I would like to recreate a user friendly experience like Google does.
+
+TODO
