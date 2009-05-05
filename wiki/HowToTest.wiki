@@ -17,6 +17,8 @@ and check all samples.
 All the ExtJS folder contains original code (not modified).
 The only thing I changed in examples was to add this line:
 
+{{{
 <link rel="stylesheet" type="text/css" href="../../../gtheme/gtheme.css" />
+}}}
 
 Into html files of examples.
