@@ -16,7 +16,9 @@ and check all samples.
 = How to test = 
 THe best example to test gtheme is desktop because it mixes windows, grids, panels..
 Test it at:
+
 http://localhost/gtheme/ext-2.2.1/examples/desktop/desktop.html
+
 (you have to get SVN project)
 
 = Make examples =
