@@ -22,3 +22,8 @@ The only thing I changed in examples was to add this line:
 }}}
 
 Into html files of examples.
+
+= Examples with GTheme applied = 
+You can test gtheme with this examples for now:
+ * window
+ * grid
