@@ -13,6 +13,12 @@ I go to:
 http://localhost/gtheme/ext-2.2.1/examples/samples.html
 and check all samples.
 
+= How to test = 
+THe best example to test gtheme is desktop because it mixes windows, grids, panels..
+Test it at:
+http://localhost/gtheme/ext-2.2.1/examples/desktop/desktop.html
+(you have to get SVN project)
+
 = Make examples =
 All the ExtJS folder contains original code (not modified).
 The only thing I changed in examples was to add this line:
@@ -28,3 +34,5 @@ You can test gtheme with this examples for now:
  * window
  * grid
  * message-box
+ * feed-viewer
+ * desktop
