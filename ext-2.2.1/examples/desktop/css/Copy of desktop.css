@@ -387,8 +387,7 @@ html, body {
 }
 
 #ux-taskbar-start {
-	/*background:#000000 url( ../images/taskbar/black/taskbar-start-panel-bg.gif ) repeat-x left top;*/
-	background-color: #6694E3;
+	background:#000000 url( ../images/taskbar/black/taskbar-start-panel-bg.gif ) repeat-x left top;
 	left:0px;
 	padding:0;
 	position:absolute;
@@ -401,8 +400,7 @@ html, body {
 }
 
 #ux-taskbuttons-panel {
-	/*background:#000000 url( ../images/taskbar/black/taskbuttons-panel-bg.gif ) repeat-x left top;*/
-	background-color: #6694E3;
+	background:#000000 url( ../images/taskbar/black/taskbuttons-panel-bg.gif ) repeat-x left top;
 	padding-top:0;
 	position:relative;
 }
