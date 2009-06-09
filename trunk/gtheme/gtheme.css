@@ -209,24 +209,30 @@ li.x-menu-item-active a.x-menu-item {
 	color: black;
 }
 
-.x-toolbar .x-btn-center {
+.x-toolbar .x-btn-center, .x-btn-center {
 	background:transparent url(gimg/btn.gif) repeat-x scroll center 0;
 }
-.x-toolbar .x-btn-over .x-btn-center {
+.x-toolbar .x-btn-over .x-btn-center
+, .x-panel-btns-ct .x-btn-over .x-btn-center
+, .x-btn-over .x-btn-center {
 	background:transparent url(gimg/btn.gif) repeat-x scroll center -22px;
 }
 
-.x-toolbar .x-btn-right {
+.x-toolbar .x-btn-right, .x-btn-right {
 	background:transparent url(gimg/btn.gif) no-repeat scroll right 0;
 }
-.x-toolbar .x-btn-over .x-btn-right {
+.x-toolbar .x-btn-over .x-btn-right
+, .x-panel-btns-ct .x-btn-over .x-btn-right
+, .x-btn-over .x-btn-right {
 	background:transparent url(gimg/btn.gif) no-repeat scroll right -22px;
 }
 
-.x-toolbar .x-btn-left {
+.x-toolbar .x-btn-left, .x-btn-left {
 	background:transparent url(gimg/btn.gif) no-repeat scroll left 0;
 }
-.x-toolbar .x-btn-over .x-btn-left {
+.x-toolbar .x-btn-over .x-btn-left
+, .x-panel-btns-ct .x-btn-over .x-btn-left
+, .x-btn-over .x-btn-left {
 	background:transparent url(gimg/btn.gif) no-repeat scroll left -22px;
 }
 
@@ -289,6 +295,7 @@ body .x-window .x-window-header-text, body .x-panel-ghost .x-window-header-text 
     border-bottom:1px solid #eee;
     border-top:1px solid #d0d0d0;
     border-left:1px solid #d0d0d0;
+	border:none;
 }
 
 .x-window-plain .x-window-body {
@@ -374,6 +381,20 @@ body .x-window .x-window-tl .x-window-header {
     border-width:0;
     border-bottom:1px solid #d0d0d0;
 }
+
+.x-tab-panel-header, .x-tab-panel-footer {
+	background-color: #BED6FF;
+	border: none;
+	padding-bottom: 3px;
+}
+
+ul.x-tab-strip-top { background: #FFF none; border-bottom:none; }
+.x-tab-strip-top .x-tab-right { background:#DFE8F6 none;}
+.x-tab-strip-top .x-tab-left {background:transparent none;}
+.x-tab-strip-top .x-tab-strip-inner {background:transparent none;}
+
+.x-tab-strip-top .x-tab-strip-active  .x-tab-right { background:#BED6FF none; color: white;}
+.x-tab-strip-active span.x-tab-strip-text {color:black;}
 
 /* SHADOWS */
 /*
