@@ -12,7 +12,7 @@
 }
 .x-panel-header {
     color:#333;
-	border:1px solid #d0d0d0;
+	border:1px solid #99BBE8;
     background-image:none;
 	background-color: #BED6FF;
 }
@@ -456,7 +456,9 @@ body .x-window .x-window-tl .x-window-header {
 	padding-bottom: 3px;
 }
 
-ul.x-tab-strip-top { background: #FFF none; border-bottom:none; }
+ul.x-tab-strip-top { background: #FFF none; border-bottom:none; padding-top:3px; }
+ul.x-tab-strip li {margin-left:3px; }
+
 .x-tab-strip-top .x-tab-right { background:#DFE8F6 none;}
 .x-tab-strip-top .x-tab-left {background:transparent none;}
 .x-tab-strip-top .x-tab-strip-inner {background:transparent none;}
