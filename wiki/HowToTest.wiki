@@ -35,6 +35,9 @@ Into html files of examples.
 You can test gtheme with this examples for now:
  * window
  * grid
+ * forms
+ * combos
+ * tabs
  * message-box
  * feed-viewer
  * desktop
