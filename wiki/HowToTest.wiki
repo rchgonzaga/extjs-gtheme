@@ -32,12 +32,5 @@ The only thing I changed in examples was to add this line:
 Into html files of examples.
 
 = Examples with GTheme applied = 
-You can test gtheme with this examples for now:
- * window
- * grid
- * forms
- * combos
- * tabs
- * message-box
- * feed-viewer
- * desktop
+I have implemented gtheme on all examples of Ext 2.2.1.
+Now there is a online demo, see in home page where to find it.
