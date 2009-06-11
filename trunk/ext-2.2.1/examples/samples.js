@@ -53,7 +53,7 @@ Ext.EventManager.on(window, 'load', function(){
             url: 'feed-viewer/view.html',
             icon: 'feeds.gif',
             desc: 'RSS 2.0 feed reader sample application that features a swappable reader panel layout.'
-        },{
+        },/*{
             text: 'Simple Tasks 2.0',
             url: 'http://extjs.com/blog/2008/02/24/tasks2/',
             icon: 'air.gif',
@@ -63,7 +63,7 @@ Ext.EventManager.on(window, 'load', function(){
             url: 'tasks/tasks.html',
             icon: 'tasks.gif',
             desc: 'Personal task management application sample that uses <a href="http://gears.google.com" target="_blank">Google Gears</a> for data storage.'
-        },{
+        },*/{
             text: 'Image Organizer',
             url: 'organizer/organizer.html',
             icon: 'organizer.gif',
@@ -314,7 +314,7 @@ Ext.EventManager.on(window, 'load', function(){
 			icon : 'dd-zones.gif',
 			desc : 'Enabling drag and drop between a DataView and a grid using DragZone and DropZone extensions.'
         }]
-	},{
+	}/*,{
         title: 'Miscellaneous',
         samples: [{
             text: 'History',
@@ -377,7 +377,7 @@ Ext.EventManager.on(window, 'load', function(){
             icon: 'locale-switch.gif',
             desc: 'Dynamically render various Ext components in different locales by selecting from a locale list.'
         }]
-    }];
+    }*/];
 
     for(var i = 0, c; c = catalog[i]; i++){
         c.id = 'sample-' + i;
