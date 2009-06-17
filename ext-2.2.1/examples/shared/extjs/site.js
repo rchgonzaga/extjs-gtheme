@@ -60,7 +60,7 @@ Ext.onReady(function(){
 				doc.on('mousedown', handleDown);
 			}
 		}
-
+/*
 		el.on('mouseover', function(e){
 			if(!tid){
 				tid = showMenu.defer(150);
@@ -72,7 +72,7 @@ Ext.onReady(function(){
 				clearTimeout(tid);
 				tid = 0;
 			}
-		});
+		});*/
 	}
 
 	createMenu('products');
