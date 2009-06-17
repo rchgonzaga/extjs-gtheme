@@ -35,11 +35,11 @@ Ext.extend(Ext.ux.TaskBar, Ext.util.Observable, {
             clickEvent:'mousedown',
             template: new Ext.Template(
 				'<table border="0" cellpadding="0" cellspacing="0" class="x-btn-wrap"><tbody><tr>',
-				'<td class="ux-startbutton-left"><i>&#160;</i></td><td class="ux-startbutton-center"><em unselectable="on"><button class="x-btn-text" type="{1}" style="height:30px;">{0}</button></em></td><td class="ux-startbutton-right"><i>&#160;</i></td>',
+				'<td class="x-btn-left"><i>&#160;</i></td><td class="x-btn-center"><em unselectable="on"><button class="x-btn-text" type="{1}" style="height:18px;">{0}</button></em></td><td class="x-btn-right"><i>&#160;</i></td>',
 				"</tr></tbody></table>")
         });
         
-        var width = Ext.get('ux-startbutton').getWidth()+10;
+        var width = Ext.get('ux-startbutton').getWidth()+4;
         
         var sbBox = new Ext.BoxComponent({
 			el: 'ux-taskbar-start',
@@ -94,10 +94,9 @@ Ext.ux.TaskBarContainer = Ext.extend(Ext.Container, {
         this.el.setSize = Ext.emptyFn;
         this.el.setStyle({
             overflow:'hidden',
-            margin:'0',
-            border:'0 none'
+            margin:'0'
         });
-        this.el.dom.scroll = 'no';
+        //this.el.dom.scroll = 'no';
         this.allowDomMove = false;
         this.autoWidth = true;
         this.autoHeight = true;
@@ -401,7 +400,7 @@ Ext.ux.TaskBar.TaskButton = function(win, el){
         clickEvent:'mousedown',
         template: new Ext.Template(
 			'<table border="0" cellpadding="0" cellspacing="0" class="x-btn-wrap"><tbody><tr>',
-			'<td class="ux-taskbutton-left"><i>&#160;</i></td><td class="ux-taskbutton-center"><em unselectable="on"><button class="x-btn-text" type="{1}" style="height:28px;">{0}</button></em></td><td class="ux-taskbutton-right"><i>&#160;</i></td>',
+			'<td class="ux-taskbutton-left"><i>&#160;</i></td><td class="ux-taskbutton-center"><em unselectable="on"><button class="x-btn-text" type="{1}" style="height:18px;">{0}</button></em></td><td class="ux-taskbutton-right"><i>&#160;</i></td>',
 			"</tr></tbody></table>")
     });
 };
